@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GolfFit Pro – 5 Übungen für einen stabilen Golfschwung</title>
+  <meta name="description" content="Lerne die 5 besten Fitnessübungen für einen stabilen Golfschwung. PDF: 5,99 €.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0b0f14;--text:#e6edf3;--muted:#9fb0c3;--brand:#6ae3ff;--brand2:#7af0b8;--card:#101826;--border:#1c2a3a;--warn:#ffd166}
+    *{box-sizing:border-box}
+    html,body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial;line-height:1.55}
+    a{color:var(--brand)}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;background:rgba(11,15,20,.7);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid var(--border);z-index:20}
+    .nav{display:flex;align-items:center;justify-content:space-between}
+    .brand{font-weight:800;letter-spacing:.3px;display:flex;gap:10px;align-items:center}
+    .brand .logo{width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:grid;place-items:center;color:#012}
+    .nav a{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:10px}
+    .nav a:hover{background:rgba(122,240,184,.1)}
+
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:32px;align-items:center;padding:48px 0}
+    h1{font-size:44px;line-height:1.1;margin:10px 0}
+    .lead{color:var(--muted);font-size:18px}
+    .badge{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--border);border-radius:999px;padding:6px 10px;color:var(--muted);font-size:13px}
+    .cta{display:flex;gap:12px;margin-top:18px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 16px;border-radius:14px;border:1px solid var(--border);font-weight:600;text-decoration:none}
+    .btn.primary{background:linear-gradient(90deg,var(--brand),var(--brand2));color:#00131a;border:none}
+    .btn.ghost{background:#0f1620;color:var(--text)}
+    .price{font-size:36px;font-weight:800;margin-top:4px}
+
+    .mock{border:1px solid var(--border);border-radius:16px;background:radial-gradient(90% 80% at 20% 10%, rgba(106,227,255,.25), transparent 60%),radial-gradient(80% 70% at 80% 0%, rgba(122,240,184,.25), transparent 60%),linear-gradient(180deg,#0a121b,#070c12);display:grid;place-items:center;padding:16px}
+    .mock img{max-width:90%;border-radius:12px;box-shadow:0 12px 40px rgba(0,0,0,.35)}
+
+    .section{padding:36px 0}
+    .muted{color:var(--muted)}
+
+    .features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .card{background:linear-gradient(180deg,#0f1722,#0b1119);border:1px solid var(--border);border-radius:18px;padding:20px}
+
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+
+    .guarantee{display:flex;gap:12px;align-items:flex-start;background:#0e1823;border:1px dashed var(--brand);border-radius:16px;padding:14px}
+
+    .testimonials{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .quote{font-style:italic;color:var(--muted)}
+
+    details{background:#0f1822;border:1px solid var(--border);border-radius:14px;padding:12px}
+    summary{cursor:pointer;font-weight:600}
+
+    footer{border-top:1px solid var(--border);margin-top:40px}
+
+    @media (max-width:950px){
+      .hero{grid-template-columns:1fr}
+      .features,.testimonials,.split{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><span class="logo">🏌️</span> GolfFit Pro</div>
+      <nav>
+        <a href="#was">Inhalte</a>
+        <a href="#warum">Warum</a>
+        <a href="#kaufen">Kaufen</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <span class="badge">Neu · PDF · Sofort-Download</span>
+        <h1>Stabiler Golfschwung in 5 Übungen</h1>
+        <p class="lead">Kompaktes PDF mit klaren Anleitungen – entwickelt, um Rumpfkontrolle, Balance und Power in deinem Schwung zu maximieren.</p>
+        <div class="price">5,99 €</div>
+        <div class="cta">
+          <a class="btn primary" href="#kaufen">Jetzt kaufen</a>
+          <a class="btn ghost" href="#was">Inhalte ansehen</a>
+        </div>
+      </div>
+      <div class="mock">
+        <img alt="PDF Mockup" src="https://images.unsplash.com/photo-1547347298-4074fc3086f0?q=80&w=1080&auto=format&fit=crop"/>
+      </div>
+    </section>
+
+    <section id="was" class="section">
+      <h2>Was du bekommst</h2>
+      <p class="muted">Konzentriert auf das Wesentliche – keine Fitness-Rätsel, sondern klare Umsetzung.</p>
+      <div class="features">
+        <div class="card"><h3>🎯 Fokus Golf</h3><p>Übungen auf Schwungstabilität, Rotation & Hüftkontrolle abgestimmt.</p></div>
+        <div class="card"><h3>📖 Step-by-Step</h3><p>Reps, Haltedauern, typische Fehler – alles verständlich erklärt.</p></div>
+        <div class="card"><h3>⏱ 15-Minuten-Format</h3><p>Passt vor die Range-Session oder nach der Arbeit.</p></div>
+      </div>
+    </section>
+
+    <section id="warum" class="section split">
+      <div class="card">
+        <h2>Warum GolfFit Pro?</h2>
+        <p class="muted">Viele Schwungfehler sind <em>keine</em> Technik-, sondern Stabilitätsprobleme. Mit gezieltem Core- & Glute-Training hältst du den Winkel besser, rotierst kontrollierter und triffst konstanter.</p>
+        <div class="guarantee"><span>✅</span><div><strong>14‑Tage Geld‑zurück‑Garantie.</strong><br><span class="muted">Ohne Wenn und Aber – teste risikofrei.</span></div></div>
+      </div>
+      <div class="card">
+        <h2>Stimmen</h2>
+        <div class="testimonials">
+          <div>
+            <p class="quote">„Nach 2 Wochen weniger Sway – Ballkontakt spürbar besser.“</p>
+            <small class="muted">– Alex H.</small>
+          </div>
+          <div>
+            <p class="quote">„Endlich ein Plan, den ich wirklich durchziehe.“</p>
+            <small class="muted">– Lea W.</small>
+          </div>
+          <div>
+            <p class="quote">„15 Minuten vor der Runde – wirkt.“</p>
+            <small class="muted">– Tom R.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kaufen" class="section">
+      <div class="card" style="display:flex;gap:18px;align-items:center;flex-wrap:wrap;justify-content:space-between">
+        <div>
+          <h2>Sofort kaufen & herunterladen</h2>
+          <p class="muted">PDF (8 Seiten) · direkt nach Zahlung per E‑Mail/Download</p>
+        </div>
+        <a class="btn primary" href="#" onclick="alert('Demo: Ersetze diesen Link später mit deinem Stripe/Gumroad/PayPal-Checkout.');return false;">Jetzt für 5,99 € kaufen</a>
+      </div>
+      <p class="muted" style="margin-top:10px">Sichere Zahlung über Stripe/PayPal möglich. Kein Abo.</p>
+    </section>
+
+    <section id="faq" class="section">
+      <h2>FAQ</h2>
+      <div class="grid" style="display:grid;gap:10px">
+        <details><summary>Wie bekomme ich das PDF nach dem Kauf?</summary><p class="muted">Du wirst nach dem Checkout auf eine Download-Seite weitergeleitet und erhältst zusätzlich eine E‑Mail mit dem Link.</p></details>
+        <details><summary>Benötige ich Equipment?</summary><p class="muted">Nein. Optional: Matte oder Miniband für Variationen.</p></details>
+        <details><summary>Für wen ist es geeignet?</summary><p class="muted">Für Anfänger bis Fortgeschrittene – Fokus auf Stabilität statt Maximalkraft.</p></details>
+        <details><summary>Geld‑zurück‑Garantie?</summary><p class="muted">Ja, innerhalb von 14 Tagen – schreibe uns einfach.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:22px 0;">
+      <small class="muted">© <span id="year"></span> GolfFit Pro</small>
+      <small class="muted"><a href="#">Impressum</a> · <a href="#">Datenschutz</a></small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
